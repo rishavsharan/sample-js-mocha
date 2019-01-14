@@ -17,6 +17,6 @@ steps:
 - script: |
     npm -v
     npm install
-    npm run test
+    npm test
   displayName: 'npm install and test'
   continueOnError: true
