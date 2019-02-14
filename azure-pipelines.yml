@@ -6,7 +6,7 @@
 trigger:
 - master
 
-pool: AgentDemo
+pool: AgentRishav
 
 steps:
 - task: NodeTool@0
