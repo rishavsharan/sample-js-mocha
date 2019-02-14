@@ -8,6 +8,8 @@ trigger:
 
 pool: AgentRishav
 
+variables: { agent.disablelogplugin.TestResultLogPlugin: 'false' }
+
 steps:
 - task: NodeTool@0
   inputs:
